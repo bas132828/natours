@@ -51,6 +51,8 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align-last: center;
+
 }
 
 .heading-primary {
@@ -58,6 +60,7 @@ body {
   text-transform: uppercase;
 
   backface-visibility: hidden;
+  margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -109,4 +112,31 @@ body {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgb(75, 72, 72);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 0px rgb(78, 75, 75);
+}
+
+.btn-white {
+  background-color: #fff; 
+  color: #777;
+
 }
