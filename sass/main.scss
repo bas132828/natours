@@ -1,12 +1,14 @@
-@import "abstracts/variables";
-@import "abstracts/mixings";
 @import "abstracts/functions";
+@import "abstracts/mixings";
+@import "abstracts/variables";
 
-@import "base/base";
 @import "base/animation";
+@import "base/base";
 @import "base/typography";
 @import "base/utilities";
 
 @import "components/button";
+
+@import "layouts/header";
 
 @import "pages/home";
